@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-50",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 908.0, 421.0, 150.0, 20.0 ],
+					"text" : "fiddle~ 1024 1 20 3"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.527879, 1.0, 0.64706, 0.22 ],
 					"fontname" : "Arial",
@@ -690,20 +704,6 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 908.0, 526.0, 73.0, 17.0 ],
 					"text" : "route 1 2 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "float", "bang", "list", "float", "list" ],
-					"patching_rect" : [ 785.0, 483.0, 113.0, 20.0 ],
-					"text" : "fiddle~ 1024 1 20 3"
 				}
 
 			}
@@ -1410,15 +1410,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1563,15 +1554,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1672,14 +1654,10 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "pid.js",
-				"bootpath" : "/Users/tkzic/max teaching examples",
+				"bootpath" : "/Users/tkzic/max-projects/pid-controller",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "fiddle~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

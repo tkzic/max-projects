@@ -2275,8 +2275,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 958.0, 154.5, 74.0, 18.0 ],
-					"text" : "read bird.aif"
+					"patching_rect" : [ 958.0, 154.5, 93.0, 18.0 ],
+					"text" : "read cello-f2.aif"
 				}
 
 			}
@@ -4239,17 +4239,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-29" : [ "live.dial[1]", "live.dial", 0 ],
-			"obj-118::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-28" : [ "live.dial", "live.dial", 0 ],
-			"obj-52" : [ "live.dial[5]", "live.dial[2]", 0 ],
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-118::obj-32" : [ "[8]", "[2]", 0 ],
-			"obj-50" : [ "live.dial[3]", "live.dial[2]", 0 ],
-			"obj-118::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-29" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-51" : [ "live.dial[4]", "live.dial[2]", 0 ],
-			"obj-7" : [ "live.drop", "live.drop", 0 ],
-			"obj-49" : [ "live.dial[2]", "live.dial[2]", 0 ]
+			"obj-49" : [ "live.dial[2]", "live.dial[2]", 0 ],
+			"obj-52" : [ "live.dial[5]", "live.dial[2]", 0 ],
+			"obj-118::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-50" : [ "live.dial[3]", "live.dial[2]", 0 ],
+			"obj-118::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-118::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-7" : [ "live.drop", "live.drop", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

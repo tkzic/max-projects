@@ -8,9 +8,9 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 49.0, 1111.0, 601.0 ],
+		"rect" : [ 0.0, 49.0, 728.0, 600.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -28,6 +28,23 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.598556, 1.0, 0.759242, 0.52 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 889.0, 40.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 589.0, 117.0, 100.0, 20.0 ],
+					"text" : "synthesizer 4"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -2251,21 +2268,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 929.25, 27.0, 117.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 434.75, 9.0, 117.0, 27.0 ],
-					"text" : "synthesizer 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -3218,10 +3220,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18" : [ "live.dial[3]", "live.dial", 0 ],
+			"obj-1" : [ "live.dial", "live.dial", 0 ],
 			"obj-6" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-17" : [ "live.dial[2]", "live.dial[2]", 0 ],
-			"obj-1" : [ "live.dial", "live.dial", 0 ]
+			"obj-18" : [ "live.dial[3]", "live.dial", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

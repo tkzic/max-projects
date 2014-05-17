@@ -1112,7 +1112,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3902,14 +3901,13 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-149",
-					"linecount" : 19,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1372.5, 134.0, 252.0, 86.0 ],
-					"text" : "t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x - t h i s \" \" i s \" \" w h a t \" \" R T T Y \" \" s o u n d s \" \" l i k e \" \" i n \" \" M a x -"
+					"text" : "-"
 				}
 
 			}
@@ -5490,7 +5488,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "rtty-recv9.js",
-				"bootpath" : "/Users/tkzic/max teaching examples",
+				"bootpath" : "/Users/tkzic/max-projects/frequency-shift-keying",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

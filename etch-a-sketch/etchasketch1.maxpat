@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -318,7 +318,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -341,7 +341,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1493,8 +1492,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36" : [ "live.dial[1]", "live.dial", 0 ],
-			"obj-35" : [ "live.dial", "live.dial", 0 ]
+			"obj-35" : [ "live.dial", "live.dial", 0 ],
+			"obj-36" : [ "live.dial[1]", "live.dial", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

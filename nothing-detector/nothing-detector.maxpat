@@ -31,13 +31,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"frgb" : 0.0,
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 32.561508, 95.0, 20.0 ],
-					"text" : "threshold in ms.",
-					"varname" : "Threshold"
+					"patching_rect" : [ 215.0, 32.561508, 99.0, 20.0 ],
+					"text" : "threshold in ms."
 				}
 
 			}
@@ -329,18 +329,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-10::obj-29" : [ "bypass", "bypass", 0 ],
-			"obj-16::obj-10::obj-4" : [ "multislider", "multislider", 0 ]
+
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "Threshold.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-externals/beap/Sequencer",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/Cycling '74/msp-externals/beap/Sequencer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }

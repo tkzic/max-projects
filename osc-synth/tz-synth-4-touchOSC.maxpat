@@ -82,7 +82,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 642.5, 214.0, 161.0, 18.0 ],
-					"text" : "/1/fader5 0.468401"
+					"presentation" : 1,
+					"presentation_rect" : [ 589.0, 264.0, 161.0, 18.0 ],
+					"text" : "/1/fader5 0.457249"
 				}
 
 			}
@@ -96,6 +98,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 615.5, 179.0, 99.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 589.0, 237.5, 99.0, 20.0 ],
 					"text" : "udpreceive 8000"
 				}
 
@@ -3220,9 +3224,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "live.dial", "live.dial", 0 ],
 			"obj-6" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-17" : [ "live.dial[2]", "live.dial[2]", 0 ],
+			"obj-1" : [ "live.dial", "live.dial", 0 ],
 			"obj-18" : [ "live.dial[3]", "live.dial", 0 ]
 		}
 ,

@@ -29,6 +29,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.867851, 1.0, 0.199702, 0.29 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-74",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 140.339203, 156.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 134.0, 247.156586, 156.0, 47.0 ],
+					"text" : "If you don't hear anything after selecting a preset, try clicking the start button."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -146,9 +165,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1039.0, 239.282532, 18.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.0, 247.156586, 18.0, 34.0 ],
+					"presentation_rect" : [ 290.170898, 158.813171, 18.0, 34.0 ],
 					"size" : 2,
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -612,11 +631,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1362.0, 391.0, 150.0, 47.0 ],
+					"patching_rect" : [ 1362.0, 391.0, 150.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 809.906616, 190.986984, 204.0, 47.0 ],
-					"text" : "Sample rate must be 44.1k for this to work\n\n"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 809.906616, 190.986984, 157.0, 33.0 ],
+					"text" : "Sample rate must be 44.1k \n\n"
 				}
 
 			}
@@ -1079,7 +1098,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1101.5, 258.843445, 67.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.088623, 271.0, 108.0, 20.0 ],
+					"presentation_rect" : [ 356.259521, 182.656586, 108.0, 20.0 ],
 					"text" : "manual scrubbing"
 				}
 
@@ -1095,7 +1114,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1101.5, 235.000031, 67.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.088623, 247.156586, 67.0, 20.0 ],
+					"presentation_rect" : [ 356.259521, 158.813171, 67.0, 20.0 ],
 					"text" : "autoplay"
 				}
 
@@ -1313,7 +1332,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1064.5, 264.000031, 32.5, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.088623, 271.0, 32.5, 18.0 ],
+					"presentation_rect" : [ 319.259521, 182.656586, 32.5, 18.0 ],
 					"text" : "1"
 				}
 
@@ -1329,7 +1348,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1064.5, 235.000031, 32.5, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.088623, 247.156586, 32.5, 18.0 ],
+					"presentation_rect" : [ 319.259521, 158.813171, 32.5, 18.0 ],
 					"text" : "0"
 				}
 

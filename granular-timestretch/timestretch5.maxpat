@@ -148,7 +148,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 148.0, 247.156586, 18.0, 34.0 ],
 					"size" : 2,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -612,7 +612,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1362.0, 391.0, 150.0, 60.0 ],
+					"patching_rect" : [ 1362.0, 391.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 809.906616, 190.986984, 204.0, 47.0 ],
@@ -992,6 +992,10 @@
 , 						{
 							"number" : 11,
 							"data" : [ 5, "obj-27", "flonum", "float", -35.839115, 5, "obj-26", "flonum", "float", 0.373972, 5, "obj-9", "flonum", "float", 31.79195, 5, "obj-58", "flonum", "float", 1830528.0, 5, "obj-73", "number~", "list", 0.0, 6, "obj-1", "gain~", "list", 127, 10.0, 5, "obj-4", "number~", "list", 0.0, 5, "obj-29", "flonum", "float", 13.809639, 5, "obj-40", "slider", "float", 0.496367, 5, "obj-84", "flonum", "float", 20.0, 5, "obj-51", "flonum", "float", 0.496367, 5, "obj-72", "toggle", "int", 0, 5, "obj-78", "number", "int", 400, 5, "obj-90", "number", "int", 100, 5, "obj-118", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 0.818813, 5, "obj-132", "flonum", "float", 11557.961914, 5, "obj-142", "flonum", "float", 331667.84375, 5, "obj-121", "toggle", "int", 1, 5, "obj-152", "radiogroup", "int", 0, 5, "obj-155", "number", "int", 1 ]
+						}
+, 						{
+							"number" : 12,
+							"data" : [ 5, "obj-27", "flonum", "float", -50.0, 5, "obj-26", "flonum", "float", 0.544895, 5, "obj-9", "flonum", "float", 1.0, 5, "obj-58", "flonum", "float", 1830528.0, 5, "obj-73", "number~", "list", 0.0, 6, "obj-1", "gain~", "list", 127, 10.0, 5, "obj-4", "number~", "list", 0.0, 5, "obj-29", "flonum", "float", 204.25853, 5, "obj-40", "slider", "float", 0.831, 5, "obj-84", "flonum", "float", 300.0, 5, "obj-51", "flonum", "float", 0.831, 5, "obj-72", "toggle", "int", 1, 5, "obj-78", "number", "int", 100, 5, "obj-90", "number", "int", 2, 5, "obj-118", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 1.0, 5, "obj-132", "flonum", "float", 41509.054688, 5, "obj-142", "flonum", "float", 0.0, 5, "obj-121", "toggle", "int", 0, 5, "obj-152", "radiogroup", "int", 1, 5, "obj-155", "number", "int", 2 ]
 						}
  ]
 				}

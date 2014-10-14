@@ -228,15 +228,15 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-74",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 140.339203, 156.0, 47.0 ],
+					"patching_rect" : [ 17.0, 140.339203, 156.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 134.0, 247.156586, 156.0, 47.0 ],
-					"text" : "If you don't hear anything after selecting a preset, try clicking the start button."
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 134.0, 247.156586, 156.0, 60.0 ],
+					"text" : "If you don't hear anything after selecting a preset, try clicking the start button. And wait a moment."
 				}
 
 			}
@@ -361,7 +361,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 290.170898, 158.813171, 18.0, 34.0 ],
 					"size" : 2,
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -1202,6 +1202,18 @@
 							"number" : 12,
 							"data" : [ 5, "obj-27", "flonum", "float", -50.0, 5, "obj-26", "flonum", "float", 0.544895, 5, "obj-9", "flonum", "float", 1.0, 5, "obj-58", "flonum", "float", 1830528.0, 5, "obj-73", "number~", "list", 0.0, 6, "obj-1", "gain~", "list", 127, 10.0, 5, "obj-4", "number~", "list", 0.0, 5, "obj-29", "flonum", "float", 204.25853, 5, "obj-40", "slider", "float", 0.831, 5, "obj-84", "flonum", "float", 300.0, 5, "obj-51", "flonum", "float", 0.831, 5, "obj-72", "toggle", "int", 1, 5, "obj-78", "number", "int", 100, 5, "obj-90", "number", "int", 2, 5, "obj-118", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 1.0, 5, "obj-132", "flonum", "float", 41509.054688, 5, "obj-142", "flonum", "float", 0.0, 5, "obj-121", "toggle", "int", 0, 5, "obj-152", "radiogroup", "int", 1, 5, "obj-155", "number", "int", 2 ]
 						}
+, 						{
+							"number" : 13,
+							"data" : [ 5, "obj-27", "flonum", "float", -100.0, 5, "obj-26", "flonum", "float", 1.246186, 5, "obj-9", "flonum", "float", 1000.0, 5, "obj-58", "flonum", "float", 1830528.0, 5, "obj-73", "number~", "list", 0.0, 6, "obj-1", "gain~", "list", 127, 10.0, 5, "obj-4", "number~", "list", 0.0, 5, "obj-29", "flonum", "float", -0.684955, 5, "obj-40", "slider", "float", 0.135245, 5, "obj-84", "flonum", "float", 0.0, 5, "obj-51", "flonum", "float", 0.135245, 5, "obj-72", "toggle", "int", 0, 5, "obj-78", "number", "int", 1000, 5, "obj-90", "number", "int", 0, 5, "obj-118", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 1.0, 5, "obj-132", "flonum", "float", 27347.326172, 5, "obj-142", "flonum", "float", 0.0, 5, "obj-121", "toggle", "int", 0, 5, "obj-152", "radiogroup", "int", 1, 5, "obj-155", "number", "int", 2, 5, "obj-105", "flonum", "float", 0.022676, 5, "obj-114", "number~", "list", 0.0, 5, "obj-119", "flonum", "float", 0.5 ]
+						}
+, 						{
+							"number" : 14,
+							"data" : [ 5, "obj-27", "flonum", "float", -100.0, 5, "obj-26", "flonum", "float", 1.075164, 5, "obj-9", "flonum", "float", 2000.0, 5, "obj-58", "flonum", "float", 1830528.0, 5, "obj-73", "number~", "list", 0.0, 6, "obj-1", "gain~", "list", 127, 10.0, 5, "obj-4", "number~", "list", 0.0, 5, "obj-29", "flonum", "float", -0.256966, 5, "obj-40", "slider", "float", 0.645528, 5, "obj-84", "flonum", "float", 0.0, 5, "obj-51", "flonum", "float", 0.645528, 5, "obj-72", "toggle", "int", 0, 5, "obj-78", "number", "int", 1000, 5, "obj-90", "number", "int", 0, 5, "obj-118", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 1.0, 5, "obj-132", "flonum", "float", 0.0, 5, "obj-142", "flonum", "float", 0.0, 5, "obj-121", "toggle", "int", 0, 5, "obj-152", "radiogroup", "int", 1, 5, "obj-155", "number", "int", 2, 5, "obj-105", "flonum", "float", 0.022676, 5, "obj-114", "number~", "list", 0.0, 5, "obj-119", "flonum", "float", 0.5 ]
+						}
+, 						{
+							"number" : 15,
+							"data" : [ 5, "obj-27", "flonum", "float", -48.093273, 5, "obj-26", "flonum", "float", 0.100336, 5, "obj-9", "flonum", "float", 78.751381, 5, "obj-58", "flonum", "float", 1830528.0, 5, "obj-73", "number~", "list", 0.0, 6, "obj-1", "gain~", "list", 127, 10.0, 5, "obj-4", "number~", "list", 0.0, 5, "obj-29", "flonum", "float", 8.344159, 5, "obj-40", "slider", "float", 0.514, 5, "obj-84", "flonum", "float", 1000.0, 5, "obj-51", "flonum", "float", 0.514, 5, "obj-72", "toggle", "int", 1, 5, "obj-78", "number", "int", 1000, 5, "obj-90", "number", "int", 0, 5, "obj-118", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 0.335702, 5, "obj-132", "flonum", "float", 41508.574219, 5, "obj-142", "flonum", "float", 1216015.75, 5, "obj-121", "toggle", "int", 1, 5, "obj-152", "radiogroup", "int", 0, 5, "obj-155", "number", "int", 1, 5, "obj-105", "flonum", "float", 0.022676, 5, "obj-114", "number~", "list", 0.0, 5, "obj-119", "flonum", "float", 0.8 ]
+						}
  ]
 				}
 
@@ -1348,13 +1360,15 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-31",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.887634, -25.513645, 94.0, 20.0 ],
+					"patching_rect" : [ 521.887634, -25.513645, 94.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 548.259521, 21.986984, 90.0, 20.0 ],
-					"text" : "4. click to play"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 558.644348, 21.986984, 83.0, 33.0 ],
+					"text" : "4. click start button to play"
 				}
 
 			}
@@ -1373,7 +1387,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 16.0, 158.156586, 201.0, 69.0 ],
-					"text" : "timestretch3 - adapted from  Andy Farnell's granular synthesis examples in \"Designing Sound\"."
+					"text" : "timestretch5 - adapted from  Andy Farnell's granular synthesis examples in \"Designing Sound\"."
 				}
 
 			}

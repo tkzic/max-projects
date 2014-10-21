@@ -1263,7 +1263,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.193665, 81.0, 53.552277, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 531.658752, 116.061554, 35.552277, 20.0 ],
+					"presentation_rect" : [ 503.030212, 116.061554, 35.552277, 20.0 ],
 					"text" : "pitch"
 				}
 
@@ -3021,12 +3021,130 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-38",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 313.700134, 483.692627, 150.0, 60.0 ],
+									"text" : "note that the window displayed here is at the incoming phasor frequency"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-36",
+									"maxclass" : "number~",
+									"mode" : 2,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "float" ],
+									"patching_rect" : [ 370.0, 309.842499, 172.0, 20.0 ],
+									"sig" : 0.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-33",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 167.0, 254.025955, 156.0, 47.0 ],
+									"text" : "left inlet is a phasor signal going from 0 to chunk-size at the incoming phasor rate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-31",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.5, 407.095123, 150.0, 47.0 ],
+									"text" : "play the chunk - this is essentially  pd version of indexing the play~ object"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-28",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.5, 130.003876, 150.0, 20.0 ],
+									"text" : "current sample rate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-26",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 49.0, 7.0, 150.0, 33.0 ],
+									"text" : "incoming phasor~ signal that drives grain playback"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 460.0, 35.568714, 150.0, 20.0 ],
+									"text" : "in seconds"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-21",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 79.0, 326.0, 150.0, 33.0 ],
+									"text" : "multiply window by the input signal"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 385.0, 66.251709, 60.0, 20.0 ],
+									"patching_rect" : [ 450.0, 66.251709, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -3040,7 +3158,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "float", "int", "int" ],
-									"patching_rect" : [ 385.0, 92.0, 63.0, 20.0 ],
+									"patching_rect" : [ 450.0, 92.0, 63.0, 20.0 ],
 									"text" : "dspstate~"
 								}
 
@@ -3051,12 +3169,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-19",
-									"linecount" : 2,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 305.0, 194.0, 176.0, 33.0 ],
-									"text" : "this inlet is the position (offset)  into the source-array buffer"
+									"patching_rect" : [ 370.0, 194.0, 176.0, 74.0 ],
+									"text" : "this inlet is the position (offset)  into the source-array buffer - it is constantly moving at a rate set by a speed factor. ie., 1 is normal"
 								}
 
 							}
@@ -3081,7 +3199,7 @@
 									"maxclass" : "scope~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.0, 431.692627, 256.0, 69.0 ]
+									"patching_rect" : [ 22.0, 483.692627, 256.0, 69.0 ]
 								}
 
 							}
@@ -3095,7 +3213,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 363.0, 161.692627, 85.0, 20.0 ],
+									"patching_rect" : [ 428.0, 161.692627, 85.0, 20.0 ],
 									"sig" : 0.0
 								}
 
@@ -3123,7 +3241,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 211.0578, 225.842499, 69.071182, 20.0 ],
+									"patching_rect" : [ 276.0578, 309.842499, 69.071182, 20.0 ],
 									"text" : "+~"
 								}
 
@@ -3137,7 +3255,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 211.0578, 99.53125, 69.071182, 20.0 ],
+									"patching_rect" : [ 276.0578, 99.53125, 69.071182, 20.0 ],
 									"text" : "*~"
 								}
 
@@ -3193,7 +3311,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 211.0578, 130.003876, 125.142357, 20.0 ],
+									"patching_rect" : [ 276.0578, 130.003876, 125.142357, 20.0 ],
 									"text" : "*~ 44100"
 								}
 
@@ -3207,7 +3325,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 261.128967, 35.568714, 125.142357, 20.0 ],
+									"patching_rect" : [ 326.128967, 35.568714, 125.142357, 20.0 ],
 									"text" : "r chunk-size"
 								}
 
@@ -3233,7 +3351,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 211.0578, 255.315109, 125.142357, 32.0 ],
+									"patching_rect" : [ 276.0578, 407.095123, 125.142357, 32.0 ],
 									"text" : "tabread4~ source-array"
 								}
 
@@ -3258,7 +3376,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 261.128967, 180.26416, 35.428474, 35.428474 ]
+									"patching_rect" : [ 326.128967, 194.0, 35.428474, 35.428474 ]
 								}
 
 							}
@@ -3271,7 +3389,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 261.128967, 66.251709, 69.071182, 20.0 ],
+									"patching_rect" : [ 326.128967, 66.251709, 69.071182, 20.0 ],
 									"text" : "sig~"
 								}
 
@@ -3316,6 +3434,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-12", 0 ]
@@ -4089,6 +4216,24 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 2 ]

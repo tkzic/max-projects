@@ -33,6 +33,49 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"id" : "obj-24",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 108.25, 566.0, 150.0, 33.0 ],
+					"text" : "listfunnel creates index:value pairs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 232.5, 523.0, 85.0, 20.0 ],
+					"text" : "plane 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 108.25, 523.0, 85.0, 20.0 ],
+					"text" : "plane 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1290,7 +1333,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u610000576"
+					"varname" : "u910001407"
 				}
 
 			}
@@ -1311,7 +1354,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u677000551"
+					"varname" : "u496001382"
 				}
 
 			}
@@ -3141,8 +3184,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "boids_poly.maxpat",
-				"bootpath" : "/Users/tkzic/dude837/Boids23/patchers",
-				"patcherrelativepath" : "../../../../dude837/Boids23/patchers",
+				"bootpath" : "/Users/tkzic/max-projects/boids/boids23/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

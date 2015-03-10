@@ -122,6 +122,14 @@
 							"number" : 14,
 							"data" : [ 5, "obj-3", "number", "int", 79, 5, "obj-4", "number", "int", 64, 5, "obj-22", "number", "int", 4, 5, "obj-14", "number", "int", 4, 5, "obj-16", "toggle", "int", 1, 5, "obj-15", "number", "int", 30, 5, "obj-12", "live.gain~", "float", -5.287304, 5, "obj-128", "flonum", "float", 40.0, 5, "obj-127", "flonum", "float", 60.0, 5, "obj-151", "flonum", "float", 20.0, 5, "obj-150", "flonum", "float", 50.0, 5, "obj-43", "number", "int", 40 ]
 						}
+, 						{
+							"number" : 15,
+							"data" : [ 5, "obj-3", "number", "int", 447, 5, "obj-4", "number", "int", 50, 5, "obj-22", "number", "int", 4, 5, "obj-14", "number", "int", 1, 5, "obj-16", "toggle", "int", 1, 5, "obj-15", "number", "int", 200, 5, "obj-12", "live.gain~", "float", -5.287304, 5, "obj-128", "flonum", "float", 1.0, 5, "obj-127", "flonum", "float", 120.0, 5, "obj-151", "flonum", "float", 1.0, 5, "obj-150", "flonum", "float", 158.0, 5, "obj-43", "number", "int", 40 ]
+						}
+, 						{
+							"number" : 16,
+							"data" : [ 5, "obj-3", "number", "int", 101, 5, "obj-4", "number", "int", 396, 5, "obj-22", "number", "int", 4, 5, "obj-14", "number", "int", 100, 5, "obj-16", "toggle", "int", 1, 5, "obj-15", "number", "int", 200, 5, "obj-12", "live.gain~", "float", -5.287304, 5, "obj-128", "flonum", "float", 1.0, 5, "obj-127", "flonum", "float", 120.0, 5, "obj-151", "flonum", "float", 1.0, 5, "obj-150", "flonum", "float", 158.0, 5, "obj-43", "number", "int", 40 ]
+						}
  ]
 				}
 

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 579.0, 420.0 ],
+		"rect" : [ 25.0, 69.0, 547.0, 430.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -135,7 +135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.333496, 103.0, 75.0, 20.0 ],
+					"patching_rect" : [ 115.333496, 103.0, 75.0, 20.0 ],
 					"text" : "loadmess 1."
 				}
 
@@ -164,8 +164,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 305.0, 156.0, 33.0 ],
-					"text" : "Need to start audio for it to work"
+					"patching_rect" : [ 317.0, 362.0, 145.0, 33.0 ],
+					"text" : "Need to start audio for clock to run"
 				}
 
 			}
@@ -254,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 139.75, 15.0, 32.0, 32.0 ]
+					"patching_rect" : [ 136.833496, 15.0, 32.0, 32.0 ]
 				}
 
 			}
@@ -925,7 +925,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.333496, 142.0, 89.0, 33.0 ],
+					"patching_rect" : [ 201.25, 142.0, 89.0, 33.0 ],
 					"text" : "set clock freq in Hz."
 				}
 
@@ -966,7 +966,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 101.333496, 142.0, 50.0, 20.0 ]
+					"patching_rect" : [ 115.333496, 142.0, 79.0, 20.0 ]
 				}
 
 			}

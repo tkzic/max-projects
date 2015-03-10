@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -521,7 +521,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1651,7 +1651,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3675,7 +3675,7 @@
 					"destination" : [ "obj-70", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-156", 0 ]
+					"source" : [ "obj-156", 1 ]
 				}
 
 			}
@@ -4239,15 +4239,15 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-52" : [ "live.dial[5]", "live.dial[2]", 0 ],
+			"obj-51" : [ "live.dial[4]", "live.dial[2]", 0 ],
+			"obj-118::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-118::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-28" : [ "live.dial", "live.dial", 0 ],
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-29" : [ "live.dial[1]", "live.dial", 0 ],
-			"obj-51" : [ "live.dial[4]", "live.dial[2]", 0 ],
 			"obj-49" : [ "live.dial[2]", "live.dial[2]", 0 ],
-			"obj-52" : [ "live.dial[5]", "live.dial[2]", 0 ],
-			"obj-118::obj-35" : [ "[5]", "Level", 0 ],
+			"obj-29" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-50" : [ "live.dial[3]", "live.dial[2]", 0 ],
-			"obj-118::obj-32" : [ "[8]", "[2]", 0 ],
 			"obj-118::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-7" : [ "live.drop", "live.drop", 0 ]
 		}

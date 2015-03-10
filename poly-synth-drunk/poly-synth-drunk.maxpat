@@ -49,12 +49,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-28",
-					"linecount" : 2,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 544.932251, 521.0, 150.0, 33.0 ],
-					"text" : "A 40 voice synthesizer driven by a random walk"
+					"patching_rect" : [ 544.932251, 480.0, 150.0, 74.0 ],
+					"text" : "A 40 voice synthesizer driven by a random walk.\nThe audio engine was stolen from Sam Tarakajian"
 				}
 
 			}
@@ -540,7 +540,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 250.0, 466.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",

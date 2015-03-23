@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 783.0, 562.0 ],
+		"rect" : [ 25.0, 69.0, 826.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,82 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.404928, 1.0, 0.472335, 0.27 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-41",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 643.0, 124.0, 150.0, 33.0 ],
+					"text" : "play around with scale for psychedelic fun"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.569281, 1.0, 0.72579, 0.34 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 568.0, 364.0, 34.0, 20.0 ],
+					"text" : "4."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.569281, 1.0, 0.72579, 0.34 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-34",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.0, 40.0, 34.0, 20.0 ],
+					"text" : "3."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.569281, 1.0, 0.72579, 0.34 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-29",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 359.0, 131.0, 34.0, 20.0 ],
+					"text" : "2."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.569281, 1.0, 0.72579, 0.34 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 305.0, 12.0, 34.0, 20.0 ],
+					"text" : "1."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
@@ -38,20 +114,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 350.0, 12.0, 152.0, 18.0 ],
 					"text" : "importmovie colorbars.png"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 431.5, 34.0, 150.0, 20.0 ],
-					"text" : "try colorbars.png"
 				}
 
 			}
@@ -241,7 +303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.0, 34.0, 76.0, 18.0 ],
+					"patching_rect" : [ 350.0, 45.0, 76.0, 18.0 ],
 					"text" : "importmovie"
 				}
 

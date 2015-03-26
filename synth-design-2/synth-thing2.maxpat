@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 726.0, 354.25, 57.0, 19.0 ],
+					"patching_rect" : [ 726.0, 356.25, 57.0, 19.0 ],
 					"text" : "0 -1 0 -1"
 				}
 
@@ -258,7 +258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 567.0, 327.0, 60.0, 20.0 ],
+					"patching_rect" : [ 527.0, 321.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -272,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 527.0, 367.0, 83.0, 18.0 ],
+					"patching_rect" : [ 527.0, 356.25, 83.0, 18.0 ],
 					"text" : "name sample"
 				}
 
@@ -287,21 +287,6 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 527.0, 390.0, 256.0, 64.0 ],
 					"setmode" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-33",
-					"maxclass" : "number~",
-					"mode" : 2,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 485.0, 321.0, 56.0, 20.0 ],
-					"sig" : 0.0
 				}
 
 			}
@@ -337,7 +322,7 @@
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-1", "kslider", "int", 57, 5, "obj-4", "number", "int", 57, 5, "obj-5", "number", "int", 0, 5, "obj-9", "live.gain~", "float", 0.0, 5, "obj-11", "flonum", "float", 220.0, 5, "obj-14", "live.dial", "float", 18.0, 5, "obj-18", "live.dial", "float", 39.0, 5, "obj-19", "live.dial", "float", 1.0, 5, "obj-20", "live.dial", "float", 1770.078735, 5, "obj-30", "live.numbox", "float", 4.0, 5, "obj-32", "live.numbox", "float", 17.0, 5, "obj-36", "flonum", "float", 1000.0, 5, "obj-38", "flonum", "float", 0.5, 5, "obj-42", "number", "int", 0, 5, "obj-44", "number~", "list", 0.0, 5, "obj-47", "number", "int", 2, 5, "obj-50", "live.menu", "float", 2.0, 5, "obj-71", "number", "int", 0, 5, "obj-33", "number~", "list", 0.0, 5, "obj-76", "flonum", "float", 624.988708, 5, "obj-77", "flonum", "float", 1218.730225, 5, "obj-106", "toggle", "int", 0, 5, "<invalid>", "number", "int", 0 ]
+							"data" : [ 5, "obj-1", "kslider", "int", 57, 5, "obj-4", "number", "int", 57, 5, "obj-5", "number", "int", 0, 5, "obj-9", "live.gain~", "float", 0.0, 5, "obj-11", "flonum", "float", 220.0, 5, "obj-14", "live.dial", "float", 18.0, 5, "obj-18", "live.dial", "float", 39.0, 5, "obj-19", "live.dial", "float", 1.0, 5, "obj-20", "live.dial", "float", 1770.078735, 5, "obj-30", "live.numbox", "float", 4.0, 5, "obj-32", "live.numbox", "float", 17.0, 5, "obj-36", "flonum", "float", 1000.0, 5, "obj-38", "flonum", "float", 0.5, 5, "obj-42", "number", "int", 0, 5, "obj-44", "number~", "list", 0.0, 5, "obj-47", "number", "int", 2, 5, "obj-50", "live.menu", "float", 2.0, 5, "obj-71", "number", "int", 0, 5, "<invalid>", "number~", "list", 0.0, 5, "obj-76", "flonum", "float", 624.988708, 5, "obj-77", "flonum", "float", 1218.730225, 5, "obj-106", "toggle", "int", 0, 5, "<invalid>", "number", "int", 0 ]
 						}
  ]
 				}
@@ -1730,15 +1715,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-54", 0 ]
 				}
 
 			}

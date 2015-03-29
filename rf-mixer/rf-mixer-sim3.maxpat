@@ -670,7 +670,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1049.0, 218.5, 82.0, 20.0 ],
+					"patching_rect" : [ 1049.0, 192.5, 82.0, 20.0 ],
 					"text" : "loadmess 0.9"
 				}
 
@@ -684,7 +684,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 871.75, 258.5, 70.0, 20.0 ],
+					"patching_rect" : [ 871.75, 232.5, 70.0, 20.0 ],
 					"text" : "receive~ IF"
 				}
 
@@ -698,7 +698,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1007.333496, 326.5, 150.0, 20.0 ],
+					"patching_rect" : [ 1017.0, 307.5, 150.0, 20.0 ],
 					"text" : "bandpass filter"
 				}
 
@@ -712,7 +712,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1083.0, 288.5, 84.0, 20.0 ],
+					"patching_rect" : [ 1083.0, 262.5, 84.0, 20.0 ],
 					"text" : "resonance"
 				}
 
@@ -726,7 +726,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1049.0, 257.5, 54.0, 20.0 ],
+					"patching_rect" : [ 1049.0, 231.5, 54.0, 20.0 ],
 					"text" : "cutoff"
 				}
 
@@ -951,7 +951,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 965.666504, 257.5, 73.0, 21.0 ]
+					"patching_rect" : [ 965.666504, 231.5, 73.0, 21.0 ]
 				}
 
 			}
@@ -964,7 +964,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 871.75, 326.5, 113.916626, 21.0 ],
+					"patching_rect" : [ 871.75, 307.5, 113.916626, 21.0 ],
 					"text" : "svf~ 440. 0.9"
 				}
 
@@ -981,7 +981,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1017.0, 288.5, 54.0, 21.0 ],
+					"patching_rect" : [ 1017.0, 262.5, 54.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "flonum",
@@ -1431,7 +1431,7 @@
 					"destination" : [ "obj-107", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-30", 0 ]
+					"source" : [ "obj-30", 2 ]
 				}
 
 			}

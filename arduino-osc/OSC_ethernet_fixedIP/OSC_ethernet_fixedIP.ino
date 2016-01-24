@@ -25,6 +25,9 @@ byte mac[] = { 0x90, 0xA2, 0xDA, 0x0D, 0x0B, 0xCE }; //physical mac address
 //the IP address for the shield:
 byte ip[] = { 192, 168, 1, 177 };
 
+byte destIp[] = { 192, 168, 1, 5 };
+
+
 OSCServer server;
 OSCClient client;
 
@@ -35,8 +38,9 @@ int flag=0;
 
 void setup(){
 
-    pinMode(2, OUTPUT);
+  //  pinMode(2, OUTPUT);
   Serial.begin(9600); 
+  delay(10);
   Serial.println("DNS and DHCP-based OSC server");
   // start the Ethernet connection:
   Ethernet.begin(mac, ip); 
@@ -62,7 +66,7 @@ void setup(){
 
 void loop(){
 
-if(server.aviableCheck()>0){
+if(server.availableCheck()>0){
     // Serial.println("alive! ");
     }  
 } 
@@ -102,20 +106,37 @@ void funcOnOff(OSCMessage *_mes){
 //When the button on the TouchOSC inteface is pressed, a message is sent from the iDevice
 //to the Arduino to switch (togle) the LED on the Arduino on/off
 //then a messeage is sent bak from the Arduino to the iDevice to toggle the buttom on/off
-
+////////////////////////////////////////////
+/////////////////////////
+////////
+//
 void funcFader(OSCMessage *_mes){
   float value = _mes->getArgFloat(0); //TouchOSC expects float values
 
   //create new osc message
   OSCMessage newMes;
+  
+  // print out the return address (ie., sender )
+   for (byte thisByte = 0; thisByte < 4; thisByte++) {
+    // print the value of each byte of the IP address:
+    Serial.print(_mes->getIpAddress()[thisByte], DEC);
+    Serial.print("."); 
+  }
+  
+   Serial.println(" ");
 
   //set destination ip address & port no
+
+  // newMes.setAddress(ipDest ,destPort);
   newMes.setAddress(_mes->getIpAddress(),destPort);
+
+// format the message
+  
   newMes.beginMessage("/1/fader1");
 
-    Serial.println(value);
-    int ledValue = value * 255.0;
-    analogWrite(ledPin, ledValue);
+  Serial.println(value);
+  int ledValue = value * 255.0;
+  analogWrite(ledPin, ledValue);
  
 
   newMes.addArgFloat(value);
@@ -124,5 +145,11 @@ void funcFader(OSCMessage *_mes){
   //
   // turn local feedback off on touch-osc control to test this
   client.send(&newMes);
+  // newMes.flush(); //object data clear
+
+
 
 }
+
+
+

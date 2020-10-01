@@ -1,4 +1,4 @@
-max-projects
+max-projects changes in 1 oct 2020
 ============
 
 Max/MSP Jitter experiments
